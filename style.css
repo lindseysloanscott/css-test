@@ -1,5 +1,6 @@
 ul {
   text-transform: uppercase;
+  font-family: Courier;
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -10,12 +11,13 @@ li {
   float: left;
   }
 li a  {
+  display: block;
   color: black;
   text-align: center;
   padding: 20px;
   text-decoration: none;
   }
-li a: hover {
+li a:hover {
   color: white;
   background-color: #000;
   }
