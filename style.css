@@ -1,4 +1,6 @@
-ul {
+navbar {
+  position: fixed;
+  top: 0;
   text-transform: uppercase;
   font-family: Courier;
   list-style-type: none;
