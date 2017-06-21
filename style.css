@@ -1,4 +1,15 @@
-navbar {
+body {
+  background-color: #d8f781;
+  margin: 0;
+  font-family: courier;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+ul.topnav {
   position: fixed;
   top: 0;
   text-transform: uppercase;
@@ -8,18 +19,19 @@ navbar {
   padding: 0;
   overflow: hidden;
   background-color: #ffcfc9;
+  width: 100%;
   }
-li {
+ul.topnav li {
   float: left;
   }
-li a  {
+ul.topnav li a  {
   display: block;
   color: black;
   text-align: center;
   padding: 20px;
   text-decoration: none;
   }
-li a:hover {
+ul.topnav li a:hover {
   color: white;
   background-color: #000;
   }
